@@ -1,0 +1,27 @@
+name: mofbattery3gnet
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pipx
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pandas
+  - pandas-datareader
+  - pillow
+  - tqdm
+  - requests
+  - h5py
+  - pyyaml
+  - flask
+  - boto3
+  - ipykernel
+  - pip:
+      - tensorflow
+      - bayesian-optimization
+      - gym-notices==0.0.8
+      - kaggle==1.6.14
+      - python-slugify==8.0.4
+      - text-unidecode==1.3
